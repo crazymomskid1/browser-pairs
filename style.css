@@ -12,7 +12,7 @@ a {
 body {
   text-align: center;
   background-image: url(images/left.png) no-repeat bottom left fixed;
-  background-color: #F26522;
+  background-color: C9BB62;
   background-size: auto auto, auto auto, 50px 50px, 50px 50px, auto auto;*/
   color: #DA4930;
   font-family: "Days One", sans-serif;
@@ -98,14 +98,14 @@ body {
 /* These styles create the images on the cards. We're using a path to the images
    included in a directory in our game, but you can also use an image that is
    hosted anyhwere on the internet by using its url in the "url()" rule. */
-.ie {background: url(./images/ie.png) no-repeat; background-size: contain;}
-.fx {background: url(./images/fx.png) no-repeat; background-size: contain;}
-.cr {background: url(./images/cr.png) no-repeat; background-size: contain;}
-.sf {background: url(./images/sf.png) no-repeat; background-size: contain;}
-.op {background: url(./images/op.png) no-repeat; background-size: contain;}
-.ns {background: url(./images/ns.png) no-repeat; background-size: contain;}
-.tb {background: url(./images/tb.png) no-repeat; background-size: contain;}
-.fm {background: url(./images/fm.png) no-repeat; background-size: contain;}
+.ie {background: url(http://cdn.bulbagarden.net/upload/0/03/001.png) no-repeat; background-size: contain;}
+.fx {background: url(http://cdn.bulbagarden.net/upload/d/d5/004.png) no-repeat; background-size: contain;}
+.cr {background: url(http://cdn.bulbagarden.net/upload/e/e8/007.png) no-repeat; background-size: contain;}
+.sf {background: url(http://cdn.bulbagarden.net/upload/d/db/152.png) no-repeat; background-size: contain;}
+.op {background: url(http://cdn.bulbagarden.net/upload/3/39/155.png) no-repeat; background-size: contain;}
+.ns {background: url(.http://cdn.bulbagarden.net/upload/5/5d/158.png) no-repeat; background-size: contain;}
+.tb {background: url(http://cdn.bulbagarden.net/upload/0/0a/025.png) no-repeat; background-size: contain;}
+.fm {background: url(http://cdn.bulbagarden.net/upload/6/6c/133.png) no-repeat; background-size: contain;}
 
 
 /* The .reset class is added to the cards when the game is reset */
