@@ -30,6 +30,7 @@
       Click: <span id="click">0</span>
       Time: <span id="timer">0</span>
     </p>
+    <p class="baritem" id="mute">Music</p>
   </header>
 
   <!-- This <div> holds the cards -->
@@ -55,10 +56,12 @@
   </div>
 
 </article> <!-- #game -->
-
 <!-- These <audio> tags hold the sounds for the game. They use sounds
      stored in the "sound" directory for the app, but you can use any
      sound on the internet by using its url for the "src" attribute. -->
+ -<audio id="melody">
+  -  <source src="http://www.gamemusicthemes.com/mp3/GameBoy/Pokemon_Red_and_Blue_-_Intro.mp3" type="audio/mpeg" />
+     </audio>
 <audio class="sound">
    <source src="http://www.gamemusicthemes.com/mp3/GameBoy/Pokemon_Red_and_Blue_-_Intro.mp3" type="audio/mpeg" />
 </audio>
